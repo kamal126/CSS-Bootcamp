@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: blue;
+}
+
+
+#first{
+    background-color: blue;
+}
+
+#second{
+    background-color: blue;
+}
+
+.third{
+    background-color: green;
+}
+
+.fourth{
+    background-color: blueviolet;
+}
+
+/* group based selection */
+h1, .fourth, #first{
+    background-color: aqua;
+}
+
+h1{
+    background-color: rgba(19, 118, 161, 0.5);
+}
+
+/* font */
+h1{
+    font-size: 80px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2em;
+}
+
+html{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
